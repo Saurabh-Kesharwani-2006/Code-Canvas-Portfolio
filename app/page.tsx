@@ -15,6 +15,7 @@ import { ScrollProgress } from "@/components/scroll-progress";
 import { BackToTop } from "@/components/back-to-top";
 import { LoadingScreen } from "@/components/loading-screen";
 import { Footer } from "@/components/footer";
+import { TestingBadge } from "@/components/testing-badge";
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
       </div>
 
       <BackToTop />
+      <TestingBadge />
     </>
   );
 }

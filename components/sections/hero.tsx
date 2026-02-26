@@ -15,10 +15,10 @@ import {
 import { Button } from "@/components/ui/button";
 
 const typingTexts = [
-  "Competitive Programmer",
-  "Frontend Developer",
-  "Java & DSA Enthusiast",
-  "Tech Explorer",
+  "DSA Enthusiast",
+  "Java & OOP Developer",
+  "Frontend Explorer",
+  "Tech Competition Participant",
 ];
 
 const floatingIcons = [
@@ -123,7 +123,7 @@ export function HeroSection() {
           className="mb-4 text-balance text-5xl font-bold leading-tight tracking-tight md:text-7xl lg:text-8xl"
         >
           <span className="text-foreground">Hi, I{"'"}m </span>
-          <span className="text-gradient">Developer</span>
+          <span className="text-gradient">Saurabh Kesharwani</span>
         </motion.h1>
 
         <motion.p
@@ -132,7 +132,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mb-6 text-lg text-muted-foreground md:text-xl"
         >
-          B.Tech CSE | Full Stack Developer | Problem Solver
+          2nd Year B.Tech CSE Student at IIIT Kalyani | Full Stack Developer | Problem Solver
         </motion.p>
 
         <motion.div
