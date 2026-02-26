@@ -91,9 +91,10 @@ export function AboutSection() {
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I{"'"}m a 2nd year B.Tech Computer Science Engineering student
-                with a deep passion for software development and problem
-                solving. My journey in tech started with curiosity and has grown
+                I{"'"}m <span className="font-semibold text-foreground">Saurabh Kesharwani</span>, currently
+                pursuing B.Tech in Computer Science & Engineering at{" "}
+                <span className="text-primary">Indian Institute of Information Technology Kalyani (IIIT Kalyani)</span>.
+                My journey in tech started with curiosity and has grown
                 into a full-fledged pursuit of excellence.
               </p>
               <p>
